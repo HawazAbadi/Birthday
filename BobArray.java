@@ -24,9 +24,9 @@ public BobObject get(Integer i) {
         birthdays.put("Dni", "9/8/2009");
         birthdays.put("Rey", "2/14/1991");
 
-        Scanner scanner = new Scanner(System.in);
+        Scanner Scanner = new Scanner(System.in);
         System.out.print("Enter your name: ");
-        String name = scanner.nextLine();
+        String name = Scanner.nextLine();
         if(birthdays.get(name) != null)
             System.out.println(name + " your birth date is: " + birthdays.get(name));
         else
